@@ -16,5 +16,4 @@ public abstract class BasePage {
     }
 
     public abstract String getPageHeaderText();
-
 }

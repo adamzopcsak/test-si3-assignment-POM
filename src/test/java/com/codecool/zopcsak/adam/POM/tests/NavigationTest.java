@@ -1,8 +1,7 @@
 package com.codecool.zopcsak.adam.POM.tests;
 
-import com.codecool.zopcsak.adam.POM.enums.InputForm;
+import com.codecool.zopcsak.adam.POM.pages.InputForm;
 import com.codecool.zopcsak.adam.POM.pages.*;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -13,13 +12,7 @@ import java.util.stream.Stream;
 import static org.junit.Assert.*;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-class SENavigation extends BaseTest {
-    private SE_HomePage homePage;
-
-    @BeforeEach
-    void initObjects() {
-        this.homePage = new SE_HomePage(driver);
-    }
+class NavigationTest extends BaseTest {
 
     @ParameterizedTest
     @MethodSource("getInputFormsForTest")

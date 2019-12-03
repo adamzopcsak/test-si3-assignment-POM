@@ -1,4 +1,4 @@
-package com.codecool.zopcsak.adam.POM.enums;
+package com.codecool.zopcsak.adam.POM.pages;
 
 public enum InputForm {
     SIMPLE_FORM_DEMO,

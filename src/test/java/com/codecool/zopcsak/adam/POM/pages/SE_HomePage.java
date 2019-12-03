@@ -1,11 +1,8 @@
 package com.codecool.zopcsak.adam.POM.pages;
 
-import com.codecool.zopcsak.adam.POM.enums.InputForm;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 public class SE_HomePage extends BasePage {
 
